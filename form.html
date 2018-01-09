@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>formulaire</title>
+</head>
+
+<style>
+
+	body {
+		text-align: center;
+		margin-top: 200px;
+		font-size: 1.3em;
+		font-family: monospace;
+		 background: #aa076b;
+	  background-image: background-image: background: -webkit-linear-gradient(right, #aa076b, #61045f);
+	  background-image: background-image: background: -o-linear-gradient(right, #aa076b, #61045f);
+	  background-image: background-image: background: linear-gradient(to left, #aa076b, #61045f);
+	  background: -o-linear-gradient(right, #aa076b, #61045f);
+	  background: linear-gradient(to left, #aa076b, #61045f);
+	  
+	  color: white;
+	}	
+	h1 {
+		color: #C71585;
+	}
+	form {
+		display: inline-block;
+		background-color: white;
+		padding: 10px 20px;
+		margin-top: -100px;
+		box-shadow: 0px 5px 5px 5px white;
+	}
+
+	input,button {
+		padding: 15px;
+		margin: 15px;
+		width: 250px;
+		box-sizing: border-box;
+		border: 0;
+		outline: 0;
+		color: white;
+	}
+	button {
+		text-transform: uppercase;
+		background-color: #aa076b;
+		cursor: pointer;
+	}
+	button:hover, button:active, button:focus{
+		background-color: #61045f;
+	}
+	input {
+		background-color: #ddd;
+		border: 0;
+	}
+	table td {
+		width: 300px;
+	}
+	p {
+		color: grey;
+		font-size: 10px;
+	}
+	a {
+		color: #aa076b;
+		text-decoration: none;
+	}
+</style>
+
+<body>
+	
+	
+	<form>
+		<h1>Form Example</h1>
+		<table>
+			<tr>
+				<td>
+					<input type="text" id="username" placeholder="username" required>
+				</td>
+			</tr>
+
+			<tr>
+				
+				<td>
+					<input type="password" id="password" placeholder="password" required>
+				</td>		
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button>login</button>
+				</td>
+			</tr>
+		</table>
+
+		<p>Not registred?<a href="#">Create an account</a></p>
+
+	</form>
+	
+
+
+
+
+
+
+</body>
+</html>
